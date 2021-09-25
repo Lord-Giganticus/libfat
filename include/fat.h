@@ -47,7 +47,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#if defined(__gamecube__) || defined (__wii__)
+#if defined(__gamecube__)
 #  include <ogc/disc_io.h>
 #else
 #  ifdef NDS
